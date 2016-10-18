@@ -9,29 +9,29 @@ No motivation at all lol, i was lazy and i was developing it as a part of a bigg
 
 #Usage
 a sample script
- #this is a comment
- ${a}=12
- print ${a} #will print out 12
- ${a}="i am dynamic,since i am string now" 
+ #this is a comment</br>
+ ${a}=12</br>
+ print ${a} #will print out 12</br>
+ ${a}="i am dynamic,since i am string now" </br>
  print ${a} #will print the string
  
- if 1==1:
-  print 12
+ if 1==1:</br>
+  print 12</br>
  end
  
- if 2==2:
-  print 1
- end
- elif 1==2:
+ if 2==2:</br>
+  print 1</br>
+ end</br>
+ elif 1==2:</br>
   print 0
- end
- else:
+ end</br>
+ else:</br>
   print 12
-  
+  </br>
   while 1:
    print 1
   
-  while True: #u can write True instead of 1 too
+  while True: #u can write True instead of 1 too</br>
    print 2
 
 #Credits
