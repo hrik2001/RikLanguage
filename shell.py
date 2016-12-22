@@ -6,7 +6,7 @@ import rikprogramming
 import sys
  
 def shell():
-	sys.stdout.write( "Rik Shell (REPL) V2.1 BETA, Written by Shatabarto Bhattacharya\n Type help for help, author and about to know about this project\n")
+	sys.stdout.write( "Rik Shell (REPL) V1.2 BETA, Written by Shatabarto Bhattacharya\n Type help for help, author and about to know about this project\n")
 	about='this is just a toy language built by Rik (Shatabarto Bhattacharya). Just for leisure. '
 	data=''
 	helps="press ^C to escape from a loop and ^D to quit"
