@@ -1,6 +1,6 @@
 __author__="Shatabarto \"Rik\" Bhattacharya"
 __doc__="Just a simple, stupid and a dummy toy programming Language"
-__version__='2.2'
+__version__='1.2'
 #this is the souce code of rik programming language
 #this is the one
 def read(files):
