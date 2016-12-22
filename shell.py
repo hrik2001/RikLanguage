@@ -31,7 +31,7 @@ def shell():
 
 		else:
 			try:
-			 	run(r+'\n')
+			 	special(r+'\n')
 		 	except:
 		 	 	sys.stdout.write( "something went wrong, please ensure you code is correct")
 
