@@ -358,7 +358,7 @@ def parse(bun,var={}):
 					var[func]=files[n-1]
 					func=''
 			else:
-				if files[n-1]!="{EOL}" and files[n-1]!="{end}":
+				if files[n-1]!="{EOL}" and files[n-1]!="{end}" and "varmode" in var:
 					print files[n-1] #only for shell, comment this out during compiling mode
 
 		elif cha[0:5]=='{VAR:' and bambam==0:
@@ -551,3 +551,7 @@ def commentor(code):
 		if var%2==0 or cha=='\n':
 			final+=cha
 	return final
+
+def special(inpu):
+	le=lex(inpu+'\n')
+	parse(le,{"varmode":"lol"})
