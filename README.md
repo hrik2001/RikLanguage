@@ -9,32 +9,33 @@ No motivation at all lol, i was lazy and i was developing it as a part of a bigg
 
 #Usage
 a sample script
-'''
- #this is a comment</br>
- ${a}=12</br>
- print ${a} #will print out 12</br>
- ${a}="i am dynamic,since i am string now" </br>
+```
+ #this is a comment
+ ${a}=12
+ print ${a} #will print out 12
+ ${a}="i am dynamic,since i am string now" 
  print ${a} #will print the string
  
- if 1==1:</br>
-  print 12</br>
+ if 1==1:
+  print 12
  end
  
- if 2==2:</br>
-  print 1</br>
- end</br>
- elif 1==2:</br>
+ if 2==2:
+  print 1
+ end
+ elif 1==2:
   print 0
- end</br>
- else:</br>
+ end
+ else:
   print 12
-  </br>
+  end
   while 1:
    print 1
   
   while True: #u can write True instead of 1 too</br>
    print 2
-'''
+   end
+```
 #Credits
 i actually made it without any help so no references and thank yous but i will thank Python for their language and their eval() for boolean logics and PEMDAS. i will code a logical function myself later to be completely indepenedent.
 
