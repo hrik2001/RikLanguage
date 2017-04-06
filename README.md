@@ -9,11 +9,11 @@ No motivation at all lol, i was lazy and i was developing it as a part of a bigg
 
 #Usage
 a sample script
- #this is a comment</br>
+ '#this is a comment</br>
  ${a}=12</br>
  print ${a} #will print out 12</br>
  ${a}="i am dynamic,since i am string now" </br>
- print ${a} #will print the string
+ print ${a} #will print the string'
  
  if 1==1:</br>
   print 12</br>
