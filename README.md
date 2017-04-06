@@ -1,16 +1,16 @@
-###Rik Programming Language
+Rik Programming Language
 ---
 This is just a dummy programming language which was and is being being developed by Rik.</br>
 
-###Synopsis
+Synopsis
 ---
 Its just a programming language which i developed just for fun. i was bored and when boredom strikes an idea strikes too. you can kind of consider this a full fledged language except that you cannot write functions and import or include headers or modules, but i will add those features later. I will probably even make this language object oriented
 
-###Motivation
+Motivation
 ---
 No motivation at all lol, i was lazy and i was developing it as a part of a bigger project, then this branched out and now i am developing it
 
-###Usage
+Usage
 ---
 a sample script
 ```
@@ -40,14 +40,14 @@ a sample script
    print 2
    end
 ```
-#Credits
+Credits
 ---
 i actually made it without any help so no references and thank yous but i will thank Python for their language and their eval() for boolean logics and PEMDAS. i will code a logical function myself later to be completely indepenedent.
 
-#Feedbacks
+Feedbacks
 ---
 they are welcome.
 
-#Contact
+Contact
 ---
 rik61072@gmail.com
