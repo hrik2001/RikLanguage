@@ -1,3 +1,4 @@
+just transferred this repo to my real account "hrik2001"
 Rik Programming Language
 ---
 This is just a dummy programming language which was and is being being developed by Rik.</br>
