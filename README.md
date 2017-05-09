@@ -40,7 +40,7 @@ a sample script
   while 1:
    print 1
   
-  while True: #u can write True instead of 1 too</br>
+  while True: #u can write True instead of 1 too
    print 2
    end
 ```
