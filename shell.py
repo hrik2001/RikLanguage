@@ -6,7 +6,7 @@ import rikprogramming
 import sys
  
 def shell():
-	sys.stdout.write( "Rik Shell (REPL) V1.2 BETA, Written by Shatabarto Bhattacharya\n Type help for help, author and about to know about this project\n")
+	print "Rik Shell (REPL) V2.1 BETA, Written by Shatabarto Bhattacharya\n Type help for help, author and about to know about this project"
 	about='this is just a toy language built by Rik (Shatabarto Bhattacharya). Just for leisure. '
 	data=''
 	helps="press ^C to escape from a loop and ^D to quit"
@@ -18,11 +18,11 @@ def shell():
 		if r=='quit':
 			break
 		elif r=='author':
-			sys.stdout.write( "Shatabarto \'Rik\' Bhattacharya\n")
+			print "Shatabarto \'Rik\' Bhattacharya"
 		elif r=='about':
-			sys.stdout.write( about+'\n')
+			print about
 		elif r=='help':
-			sys.stdout.write( helps+'\n')
+			print helps
 		elif r=='open file' or r=='run file':
 			a=raw_input('enter da file name')
 			b=open(a,'r').read()
@@ -31,11 +31,12 @@ def shell():
 
 		else:
 			try:
-			 	special(r+'\n')
+			 	run(r+'\n')
 		 	except:
-		 	 	sys.stdout.write( "something went wrong, please ensure you code is correct")
+		 	 	print "something went wrong, please ensure you code is correct"
 
 try:
 	rikprogramming.run(open(sys.argv[1],"r").read())
 except:
 	shell()
+		 	 	
