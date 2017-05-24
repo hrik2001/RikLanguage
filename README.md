@@ -27,20 +27,20 @@ a sample script
  print ${a} #will print the string
  
  if 1==1:
-  print 12
+  print 12 #indention is not needed though
  end
  
  if 2==2:
-  print 1
+ print 1
  end
  elif 1==2:
-  print 0
+ print 0
  end
  else:
-  print 12
-  end
-  while 1:
-   print 1
+ print 12
+ end
+ while 1:
+ print 1
   
   while True: #u can write True instead of 1 too
    print 2
